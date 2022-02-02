@@ -6,6 +6,7 @@ int findDuplicate(int *arr, int n)
     {
         s=s+arr[i];
     }
+    
     int su=((n-2)*(n-1))/2;
     return(s-su);
 }
